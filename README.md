@@ -3,7 +3,7 @@
 ## What is Rust?
 - Rust is a statically compiled language in a similar role as C++
   - `rustc` uses **LLVM** as its backend.
-- 
+  
 - Rust supports many platforms and architectures:
   - x86, ARM, WebAssembly, …
   - Linux, Mac, Windows, …
@@ -15,8 +15,22 @@
   - desktops,
   - servers.
 
+## Why Rust?
+- Compile time memory safety
+- Lack of undefined runtime behavior
+- Modern language features
+
+**C/C++ vs Rust**
+- Eliminates runtime error via the **borrow checker**
+- Don't have memory unsafety issue
+- Pattern matching, dependency management 기능
+
+**OOP vs Rust**
+- Memory safety
+- High level lang feeling + low level lang perfomance
+
 ### Rust 구성 요소
-- `rustc` : the **Rust compiler** which turns .rs files into binaries and other intermediate formats.
+- `rustc` : the **Rust compiler** which turns `.rs` files into binaries and other intermediate formats.
 - `Cargo` : the Rust dependency manager and build tool
   - https://crates.io/ 에서 dependency 다운로드
   - 프로젝트 빌드시 `rustc` 에 전달
