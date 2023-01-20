@@ -14,5 +14,6 @@ fn main() {
     // erase(text);
     println!("{fox:?}");
     println!("{dog:?}");
+    // 한번 borrow된 것 사용 후 erase 가능
     erase(text);
 }
